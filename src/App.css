@@ -1,0 +1,43 @@
+.App{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    margin-top: 25%;
+}
+.quote{
+    text-align: center;
+    align-self: center;
+    padding: 0.5rem 1rem 0 1rem;
+    margin: 1rem auto;
+}
+.box_one{
+    display: flex;
+}
+.fa-quote-left{
+    color: blueviolet;
+    font-size: 70px;
+    margin-left: 1rem;
+}
+.box_two{
+    text-align: right;
+}
+.author{
+    text-align: right;
+    padding: 0 1rem;
+    font-style: italic;
+}
+
+.btn{
+    font-size: 40px;
+    border-radius: 100%;
+    width:8%;
+    height: 8%;
+    text-align: center;
+    position: relative;
+    right: 2%;
+    margin: 1rem;
+}
+
+.fa-angle-right{
+    color: white;
+}
