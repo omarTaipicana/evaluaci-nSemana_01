@@ -8,6 +8,7 @@ function App() {
   const randomIndex = Math.floor(Math.random() * quotes.length)
   const [index, setIndex] = useState(randomIndex)
   const changerUser = () => {
+    const randomIndex = Math.floor(Math.random() * quotes.length)
     setIndex(randomIndex)
   }
 
