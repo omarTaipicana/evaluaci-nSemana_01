@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import quotes from "./componentes/quotes.json"
 import QuoteBox from './componentes/QuoteBox'
-const colors = ["black", "blue", "green", "brown", "#0E0A14", "#494454", "#032720", "#32554C", "#251F34", "#4B4261", "#220200", "#38210D"]
+const colors = ["black", "blue", "green","#0E0A14", "#494454", "#032720", "#32554C", "#251F34", "#4B4261", "#220200", "#38210D"]
 
 function App() {
 
@@ -15,8 +15,10 @@ function App() {
   const randomColor = Math.floor(Math.random() * colors.length)
   document.body.style = `background:${colors[randomColor]}`
   return (
+     <div> 
     <div className="App">
       <QuoteBox quotes={quotes} changerUser={changerUser} index={index} colors={colors} randomColor={randomColor} />
+    </div>
     </div>
   )
 }
